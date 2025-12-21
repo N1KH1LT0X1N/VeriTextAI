@@ -81,7 +81,7 @@ export default function AnimatedContent() {
         <div className="hero__glow absolute inset-0 -z-10 bg-blue-500/20 opacity-0 blur-2xl filter" />
         <Image
           className="rounded-lg"
-          src="/placeholder-hero.svg"
+          src="/dashboard.png"
           alt="VeriText AI Dashboard"
           width={1200}
           height={800}

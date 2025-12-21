@@ -1,6 +1,6 @@
-import PlainLogo from "./PlainLogo";
 import Bounded from "@/components/Bounded";
 import ButtonLink from "@/components/ButtonLink";
+import Image from "next/image";
 
 const CallToAction = (): JSX.Element => {
   return (
@@ -8,7 +8,13 @@ const CallToAction = (): JSX.Element => {
       <div className="glow absolute -z-10 aspect-square w-full max-w-sm rounded-full bg-blue-500/20 blur-[160px] filter" />
 
       <div className="glass-container rounded-lg bg-gradient-to-b from-white to-slate-100 p-4 shadow-lg md:rounded-xl">
-        <PlainLogo />
+        <Image 
+          src="/cta.png"
+          alt="VeriText AI"
+          width={96}
+          height={96}
+          className="mx-auto"
+        />
       </div>
 
       <div className="mt-8 max-w-xl text-balance text-5xl text-slate-900">

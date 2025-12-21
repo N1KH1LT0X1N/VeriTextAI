@@ -34,7 +34,7 @@ const Showcase = (): JSX.Element => {
         </div>
 
         <Image
-          src="/placeholder-workflow.svg"
+          src="/workflow.png"
           alt="Workflow integration"
           width={800}
           height={600}

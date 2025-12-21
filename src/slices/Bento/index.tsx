@@ -6,25 +6,25 @@ const bentoFeatures = [
   {
     title: "AI Paraphrase Detection",
     body: "Advanced algorithms detect sophisticated paraphrasing attempts, not just direct copying. Our deep learning models understand semantic meaning to catch students who try to reword sources.",
-    image: "/placeholder-ai.svg",
+    image: "/ai paraphrase.png",
     wide: false,
   },
   {
     title: "Code Plagiarism Scanner",
     body: "Purpose-built for programming assignments. Detects copied code even when variable names are changed, supports 50+ languages including Python, Java, C++, and JavaScript.",
-    image: "/placeholder-code.svg",
+    image: "/code plagiarism.png",
     wide: true,
   },
   {
     title: "LMS Integration",
     body: "Works seamlessly within Canvas, Blackboard, Moodle, Google Classroom, and Schoology. Students submit directly through your existing workflow—no new logins required.",
-    image: "/placeholder-lms.svg",
+    image: "/lms.png",
     wide: false,
   },
   {
     title: "Time-Saving Batch Processing",
     body: "Upload entire classes worth of assignments at once. Get comprehensive reports in minutes, not hours. Focus on teaching, not hunting for plagiarism.",
-    image: "/placeholder-batch.svg",
+    image: "/time saving.png",
     wide: false,
   },
 ];
@@ -57,8 +57,8 @@ const Bento = (): JSX.Element => {
               src={item.image} 
               alt={item.title}
               width={400}
-              height={144}
-              className="max-h-36 w-auto" 
+              height={200}
+              className="max-h-36 w-full object-contain" 
             />
           </div>
         ))}

@@ -8,13 +8,13 @@ const caseStudies = [
     id: "stanford-university",
     company: "Stanford University",
     description: "How Stanford's Computer Science department reduced grading time by 60% while catching 3x more plagiarism cases.",
-    logoImage: "/placeholder-stanford.svg",
+    logoImage: "/stanford.png",
   },
   {
     id: "mit-opencourseware",
     company: "MIT OpenCourseWare",
     description: "MIT leverages VeriText AI to maintain academic integrity across 2,500+ free online courses with minimal staff overhead.",
-    logoImage: "/placeholder-mit.svg",
+    logoImage: "/mit.png",
   },
 ];
 
